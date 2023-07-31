@@ -1,6 +1,3 @@
-Sure, I can help you create a README file for this code. A README file typically provides information about the code, its purpose, how to use it, and any other relevant details for users or contributors. Here's a template for the README file:
-
----
 
 # Burst Length Analysis using PyShark and Matplotlib
 
