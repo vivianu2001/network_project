@@ -1,3 +1,13 @@
+#   The script sets the file path for the packet capture file and the TShark executable path.
+#   It opens the capture file using PyShark and initializes lists to store burst information.
+#   The script iterates through each packet in the capture file.
+#   For each packet, it extracts the packet's timestamp and length and calculates the inter-packet delay.
+#   Based on the inter-packet delay, the script groups packets into bursts.
+#   If the inter-packet delay is below a certain threshold, the packet belongs to the current burst; otherwise, it starts a new burst.
+#   The script stores the burst times and corresponding burst lengths in lists.
+#   After processing all packets, the packet capture is closed.
+#   Finally, the script uses Matplotlib to create a bar plot showing the burst lengths against their corresponding times.
+#   In summary, this code analyzes network packet data to detect and visualize burst traffic patterns.
 import pyshark
 import matplotlib.pyplot as plt
 from datetime import datetime
