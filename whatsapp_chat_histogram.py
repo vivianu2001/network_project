@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Path to the WhatsApp chat text file
-chat_file = '/home/vivian/Downloads/algo2.txt'
+chat_file = '/home/vivian/Downloads/automata_chat.txt'
 
 timestamps = []
 imds = []
