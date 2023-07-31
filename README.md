@@ -178,6 +178,6 @@ Happy analyzing!
 You can copy and use this README directly for your `messages_over_time.py` script. Just make sure to modify the `capture_file` and `tshark_path` variables as needed before running the script.
 
 ## Acknowledgments
-
-This project is based on the principles of Practical Traffic Analysis Attacks on Secure Messaging Applications, which explores various traffic analysis techniques, including inter-message delay analysis.
+This project was inspired by the research paper "Practical Traffic Analysis Attacks on Secure Messaging Applications" by Alireza Bahramali.
+Special thanks to the Scipy, NumPy, and Matplotlib communities for providing essential libraries for data analysis and visualization.
 
