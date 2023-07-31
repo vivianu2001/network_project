@@ -112,6 +112,71 @@ python whatsapp_chat_histogram.py
 
 5. The script will process the WhatsApp chat text file, calculate inter-message delays, plot a histogram, and fit an exponential distribution to the delays.
 
+
+# Messages Over Time Analysis Script
+
+This script is designed to analyze a packet capture file using PyShark and visualize the packet lengths over time using Matplotlib. The packet capture file should be in the PCAP format (e.g., `.pcap`, `.pcapng`).
+
+## Requirements
+
+- Python 3.x
+- PyShark (Python wrapper for TShark)
+- Matplotlib
+
+Make sure you have installed the necessary libraries before running the script.
+
+## Usage
+
+1. Ensure you have installed Python 3.x on your system.
+
+2. Install the required Python libraries using `pip`:
+
+```bash
+pip install pyshark matplotlib
+```
+
+3. Update the `capture_file` and `tshark_path` variables in the script:
+
+```python
+# Path to the packet capture file
+capture_file = '/path/to/your/capture/file.pcapng'
+
+# Set the TShark path (if not in the default location)
+tshark_path = '/path/to/tshark'
+```
+
+Replace `/path/to/your/capture/file.pcapng` with the path to your packet capture file.
+
+4. Run the script:
+
+```bash
+python messages_over_time.py
+```
+
+5. The script will read the packet capture file and extract the timestamps and lengths of each packet. It will then convert the timestamps to relative time in seconds (relative to the first packet's timestamp).
+
+6. The output will be a plot displaying the packet lengths against time in seconds. The plot will pop up on your screen, or you can save it programmatically if needed.
+
+## Note
+
+- Ensure that you have appropriate permissions to read the packet capture file.
+
+- If TShark is not in the default location (`/usr/bin/tshark`), provide the correct path to the `tshark_path` variable.
+
+- Make sure the required libraries are installed and accessible in your Python environment.
+
+- The script will display the plot interactively. If you wish to save the plot programmatically, you can use the `savefig` function from Matplotlib.
+
+- This script is a basic example of packet capture analysis and visualization. You can extend and modify it based on your specific requirements.
+
+- For larger capture files or performance optimization, you may need to consider using `tshark` directly via the command line for initial filtering and then process the filtered output with PyShark.
+
+Happy analyzing!
+
+---
+
+You can copy and use this README directly for your `messages_over_time.py` script. Just make sure to modify the `capture_file` and `tshark_path` variables as needed before running the script.
+
 ## Acknowledgments
 
 This project is based on the principles of Practical Traffic Analysis Attacks on Secure Messaging Applications, which explores various traffic analysis techniques, including inter-message delay analysis.
