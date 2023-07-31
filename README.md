@@ -22,8 +22,8 @@ pip install pyshark matplotlib
 1. Clone the repository and navigate to the project directory.
 
 ```bash
-git clone https://github.com/your_username/burst_length_analysis.git
-cd burst_length_analysis
+git clone https://github.com/vivianu2001/event_extraction.git
+cd event_extraction
 ```
 
 2. Place your packet capture file (e.g., 'after_exam_clean.pcapng') in the project directory.
