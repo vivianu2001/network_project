@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # Path to the packet capture file
-capture_file = '/home/vivian/photo_messaging_clean.pcapng'
+capture_file = '/home/vivian/after_exam_clean.pcapng'
 
 # Set the TShark path
 tshark_path = '/usr/bin/tshark'
@@ -15,7 +15,7 @@ cap = pyshark.FileCapture(capture_file, tshark_path=tshark_path)
 burst_times = []
 burst_lengths = []
 current_burst_length = 0
-threshold = 0.0001 # seconds, choose a suitable value based on your data
+threshold =0.00001  # seconds, choose a suitable value based on your data
 
 # Iterate through the packets
 prev_timestamp = None
@@ -62,3 +62,4 @@ plt.title('Burst Lengths over Time')
 plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
 plt.tight_layout()  # Adjust layout to prevent clipping of labels
 plt.show()
+

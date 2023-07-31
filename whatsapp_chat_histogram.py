@@ -1,8 +1,9 @@
 import datetime
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Path to the WhatsApp chat text file
-chat_file = '/home/vivian/Downloads/WhatsApp Chat/_chat.txt'
+chat_file = '/home/vivian/Downloads/algo2.txt'
 
 timestamps = []
 imds = []
@@ -31,18 +32,20 @@ for i in range(1, len(timestamps)):
     imd = (timestamps[i] - timestamps[i - 1]).total_seconds()
     imds.append(imd)
 
-# Plot the inter-message delays
+# Plot the histogram of inter-message delays
 plt.figure(figsize=(10, 6))
-plt.plot(range(1, len(imds) + 1), imds, marker='o', linestyle='-', color='b')
-plt.xlabel('Message Index')
-plt.ylabel('Inter-Message Delay (Seconds)')
-plt.title('Inter-Message Delays in WhatsApp Chat')
-plt.show()
+plt.hist(imds, bins=30, density=True, alpha=0.7, label='Histogram of Inter Message Delays')
 
-# # Plot the histogram of inter-message delays
-plt.hist(imds, bins=30, density=True, alpha=0.7, label='Inter Message Delays')
+# Fit an exponential distribution
+fit_x = np.linspace(0, max(imds), 1000)
+lambda_ = 1 / np.mean(imds)  # Estimated lambda for the exponential distribution
+fit_y = lambda_ * np.exp(-lambda_ * fit_x)
+
+# Plot the fitted exponential distribution
+plt.plot(fit_x, fit_y, 'r', label='Fitted Exponential Distribution')
+
 plt.xlabel('Inter Message Delays (Seconds)')
 plt.ylabel('PDF')
-plt.title('Histogram of Inter Message Delays')
+plt.title('Histogram of Inter Message Delays with Fitted Exponential Distribution')
 plt.legend()
 plt.show()
