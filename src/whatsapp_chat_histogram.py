@@ -1,3 +1,18 @@
+#    The script sets the path to the WhatsApp chat text file and imports the required libraries.
+#    It initializes empty lists timestamps and imds to store timestamps and inter-message delays, respectively.
+#    The script reads the chat text file and extracts lines from it.
+#    For each line, it tries to extract the timestamp part and convert it to a datetime object.
+#    The timestamps are appended to the timestamps list. If a line doesn't match the expected format, it is skipped.
+#    After extracting timestamps, the script calculates inter-message delays by finding the time difference between consecutive timestamps.
+#    The inter-message delays are stored in the imds list.
+#    The script then proceeds to plot a histogram of the inter-message delays using Matplotlib.
+#    It plots the histogram with 30 bins, normalized to form a probability density function (PDF).
+#    Additionally, it fits an exponential distribution to the inter-message delays to model the data.
+#    The fitted exponential distribution is plotted as a red curve on top of the histogram.
+#    The plot is labeled with appropriate titles and axis labels.
+#    Finally, the plot is displayed using plt.show().
+#In summary, this code analyzes a WhatsApp chat text file, extracts timestamps from the messages, calculates inter-message delays, and visualizes the distribution of these delays as a histogram. It also fits an exponential distribution to the inter-message delays for modeling purposes.
+
 import datetime
 import matplotlib.pyplot as plt
 import numpy as np
