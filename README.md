@@ -2,7 +2,7 @@
 
 This project focuses on practical traffic analysis techniques for studying network traffic in secure messaging applications. It includes two Python scripts that analyze network traffic data and messaging patterns:
 
-## Burst Length Analysis using PyShark and Matplotlib
+## Burst Length Analysis using PyShark and Matplotlib(event_extraction.py)
 
 The Burst Length Analysis script analyzes burst lengths in a packet capture file using PyShark, a wrapper for TShark (Wireshark command-line tool). It then visualizes the burst lengths over time using Matplotlib.
 
@@ -62,7 +62,7 @@ python event_extraction.py
 
 6. The script will process the packet capture file and display a bar plot showing burst lengths over time.
 
-## WhatsApp Inter-Message Delay Analysis using Matplotlib and Numpy
+## WhatsApp Inter-Message Delay Analysis using Matplotlib and Numpy(whatsapp_chat_histogram.py)
 
 The WhatsApp Inter-Message Delay Analysis script analyzes inter-message delays in a WhatsApp chat text file and plots a histogram with a fitted exponential distribution using Matplotlib and Numpy.
 
@@ -113,7 +113,7 @@ python whatsapp_chat_histogram.py
 5. The script will process the WhatsApp chat text file, calculate inter-message delays, plot a histogram, and fit an exponential distribution to the delays.
 
 
-# Messages Over Time Analysis Script
+# Messages Over Time Analysis(messages_over_time)
 
 This script is designed to analyze a packet capture file using PyShark and visualize the packet lengths over time using Matplotlib. The packet capture file should be in the PCAP format (e.g., `.pcap`, `.pcapng`).
 
