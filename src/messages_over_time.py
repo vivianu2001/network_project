@@ -12,7 +12,7 @@ import pyshark
 import matplotlib.pyplot as plt
 
 # Path to the packet capture file
-capture_file = '/home/vivian/random_messages_cleann.pcapng'
+capture_file = '/home/vivian/group_1_new.pcapng'
 
 # Set the TShark path
 tshark_path = '/usr/bin/tshark'
