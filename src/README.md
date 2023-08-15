@@ -59,7 +59,6 @@ Adjust the threshold value based on the characteristics of your packet capture d
 ```bash
 python event_extraction.py
 ```
-
 The script will process the packet capture file and display a bar plot showing burst lengths over time.
    event_extraction_MB.py is same only in MB
 
