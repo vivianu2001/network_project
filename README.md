@@ -18,7 +18,7 @@ The project is based on the "Practical Traffic Analysis Attacks on Secure Messag
 ## Methodology
 
 1. Recorded WhatsApp Conversations: The conversations were captured using Wireshark to obtain network traffic data.
-2. Implemented EVENT_EXTRACTION.PY: Using the EVENT BASED DETECTOR algorithm, the event_extraction.py script was created. It produces graphs that reveal the size and nature of messages within each WhatsApp group based on network packet information.
+2. Implemented event_extraction.py: Using the event based detector algorithm, the event_extraction.py script was created. It produces graphs that reveal the size and nature of messages within each WhatsApp group based on network packet information.
 3. PDF and CCDF Graphs: Mathematical graphs were generated using `whatsapp_chat_histogram.py` for PDF functions and `message_size_distribution_ccdf.py` for CCDF functions. These tools allowed insights into message distribution patterns.
 
 ## Results
