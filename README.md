@@ -22,6 +22,10 @@ The project is based on the "Practical Traffic Analysis Attacks on Secure Messag
 3. PDF and CCDF Graphs: Mathematical graphs were generated using `whatsapp_chat_histogram.py` for PDF functions and `message_size_distribution_ccdf.py` for CCDF functions. These tools allowed insights into message distribution patterns.
 
 ## Results
+- Graphs for Message Sizes: The produced graphs under the `res` folder for each group (named `group_x_ee`) display the size of messages in each WhatsApp group based on network packet analysis.
+- Message Over Time: `messeges_over_time` in the `res` folder for each group (named `group_x_mot`) illustrating package sizes over the duration of each group.
+- PDF and CCDF Functions: `histogram_group_x` folder contains PDF graphs for groups with substantial message counts (groups 6 and 7), while CCDF graphs are produced using `message_size_distribution_ccdf.py`.
+  
 In our analysis, we investigated the network traffic from WhatsApp messages in different groups. We made interesting observations and faced several challenges in deciphering the data.
 It can be concluded that the algorithms in the article do demonstrate the potential to discern group communication patterns Although challenges exist, this analysis provides important insights into the nature of different groups and can be a valuable tool for understanding the dynamics of WhatsApp groups.
 As for the question of whether it is possible to understand whether it is possible to identify the groups in which the attacked participates when he communicates with several groups at the same time, it can be seen that this is relatively very complex. Even if the attacker participates in groups we participate in. There will be a very large "mixing" of messages, and it is not possible to analyze which group each package belongs to. When the attacker listens to a single group, it is relatively easy to export the events and analyze them according to the nature of the messages and the sending times.
@@ -37,10 +41,6 @@ When the attacker tries to coordinate a person's presence in multiple groups or 
 This means that even if the attacker watches multiple interactions from different devices, he cannot definitively link them to the same person.
 Furthermore, users may switch between devices or change their identity, further complicating the process.
 
-
-- Graphs for Message Sizes: The produced graphs under the `res` folder for each group (named `group_x_ee`) display the size of messages in each WhatsApp group based on network packet analysis.
-- Message Over Time: `messeges_over_time` in the `res` folder for each group (named `group_x_mot`) illustrating package sizes over the duration of each group.
-- PDF and CCDF Functions: `histogram_group_x` folder contains PDF graphs for groups with substantial message counts (groups 6 and 7), while CCDF graphs are produced using `message_size_distribution_ccdf.py`.
 
 **Privacy Protection:** It's important to note that privacy protection for participants has been prioritized in this project. When generating the histogram graphs using `whatsapp_chat_histogram.py`, we do not upload or include the actual text message data. 
 
