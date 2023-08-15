@@ -59,6 +59,3 @@ Please note: In terms of privacy protection for participants, we utilize the "Ex
 - LinkedIn: [Your LinkedIn Profile](link-to-your-LinkedIn)
 - GitHub Repository: [Your GitHub Repository](https://github.com/vivianu2001/network_project)
 
----
-
-Feel free to replace `[link-to-article]`, `[link-to-your-LinkedIn]`, and `[link-to-your-repo]` with the actual URLs. This README provides comprehensive information on downloading, using, and understanding your project while ensuring participant privacy.
