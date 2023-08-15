@@ -1,7 +1,3 @@
-Certainly! Here's the updated README.md with the information you requested, organized in a coherent order:
-
----
-
 # WhatsApp Traffic Analysis Project
 
 This project is centered around the analysis of WhatsApp group conversations using practical traffic analysis techniques as presented in the article "Practical Traffic Analysis Attacks on Secure Messaging Applications." The primary aim of the project is to address key project questions while analyzing 7 distinct WhatsApp groups.
