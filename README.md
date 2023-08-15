@@ -71,6 +71,6 @@ Furthermore, users may switch between devices or change their identity, further 
 ## References
 
 - Article: [Practical Traffic Analysis Attacks on Secure Messaging Applications](link-to-article)
-- LinkedIn: [Your LinkedIn Profile](link-to-your-LinkedIn)
+- LinkedIn: www.linkedin.com/in/vivian-umansky-86b9a0288
 - GitHub Repository:https://github.com/vivianu2001/network_project
 
