@@ -27,7 +27,7 @@ The project is based on the "Practical Traffic Analysis Attacks on Secure Messag
 - Message Over Time: `messeges_over_time` in the `res` folder for each group (named `group_x_mot`) illustrating package sizes over the duration of each group.
 - PDF and CCDF Functions: `histogram_group_x` folder contains PDF graphs for groups with substantial message counts (groups 6 and 7), while CCDF graphs are produced using `message_size_distribution_ccdf.py`.
 
-Please note: In terms of privacy protection for participants, we utilize the "Extract Chat" feature to ensure that the text content is not uploaded. Instead, we focus on creating histogram graphs for the groups to maintain privacy.
+**Privacy Protection:** It's important to note that privacy protection for participants has been prioritized in this project. When generating the histogram graphs using `whatsapp_chat_histogram.py`, we do not upload or include the actual text message data. 
 
 ## Usage
 
