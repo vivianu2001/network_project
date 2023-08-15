@@ -66,7 +66,7 @@ Furthermore, users may switch between devices or change their identity, further 
 - `resources`: Folder containing recorded conversations from Wireshark.
 - `src`: Directory containing all project codes and implementations.
 - `Final project-computer networking.pdf`: Full project PDF document.
-- `Final project-computer networking(Hebrew).pdf`: Hebrew version of the project PDF and the dry part.
+- `Final project-computer networking-heb.pdf`: Hebrew version of the project PDF and the dry part.
 
 ## References
 
