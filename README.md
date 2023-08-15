@@ -13,7 +13,7 @@ This project is centered around the analysis of WhatsApp group conversations usi
 
 ## Introduction
 
-The project is based on the "Practical Traffic Analysis Attacks on Secure Messaging Applications" article, focusing on answering project questions through the analysis of 7 WhatsApp groups. The analysis involves the recording of WhatsApp conversations using Wireshark and the implementation of the EVENT BASED DETECTOR algorithm detailed in the article.
+The project is based on the "Practical Traffic Analysis Attacks on Secure Messaging Applications" article, focusing on answering project questions through the analysis of 7 WhatsApp groups. The analysis involves the recording of WhatsApp conversations using Wireshark and the implementation of the event based detector algorithm detailed in the article.
 
 ## Methodology
 
