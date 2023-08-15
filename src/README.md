@@ -1,7 +1,3 @@
-# Practical Traffic Analysis Attacks on Secure Messaging Applications
-
-This project focuses on practical traffic analysis techniques for studying network traffic in secure messaging applications. It includes two Python scripts that analyze network traffic data and messaging patterns:
-
 ## Burst Length Analysis using PyShark and Matplotlib(event_extraction.py)
 
 The Burst Length Analysis script analyzes burst lengths(in bytes) in a packet capture file using PyShark, a wrapper for TShark (Wireshark command-line tool). It then visualizes the burst lengths over time using Matplotlib.
