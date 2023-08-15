@@ -18,13 +18,13 @@ The project is based on the "Practical Traffic Analysis Attacks on Secure Messag
 ## Methodology
 
 1. Recorded WhatsApp Conversations: The conversations were captured using Wireshark to obtain network traffic data.
-2. Implemented EVENT_EXTRACTION.PY: Using the EVENT BASED DETECTOR algorithm, the EVENT_EXTRACTION.PY script was created. It produces graphs that reveal the size and nature of messages within each WhatsApp group based on network packet information.
+2. Implemented EVENT_EXTRACTION.PY: Using the EVENT BASED DETECTOR algorithm, the event_extraction.py script was created. It produces graphs that reveal the size and nature of messages within each WhatsApp group based on network packet information.
 3. PDF and CCDF Graphs: Mathematical graphs were generated using `whatsapp_chat_histogram.py` for PDF functions and `message_size_distribution_ccdf.py` for CCDF functions. These tools allowed insights into message distribution patterns.
 
 ## Results
 
-- Graphs for Message Sizes: The produced graphs under the `RES` folder for each group (named `GROUP_X_EE.PNG`) display the size of messages in each WhatsApp group based on network packet analysis.
-- Message Over Time: `MESSEGES_OVER_TIME` in the `RES` folder presents graphs illustrating package sizes over the duration of each group.
+- Graphs for Message Sizes: The produced graphs under the `res` folder for each group (named `group_x_ee`) display the size of messages in each WhatsApp group based on network packet analysis.
+- Message Over Time: `messeges_over_time` in the `res` folder for each group (named `group_x_mot`) illustrating package sizes over the duration of each group.
 - PDF and CCDF Functions: `histogram_group_x` folder contains PDF graphs for groups with substantial message counts (groups 6 and 7), while CCDF graphs are produced using `message_size_distribution_ccdf.py`.
 
 Please note: In terms of privacy protection for participants, we utilize the "Extract Chat" feature to ensure that the text content is not uploaded. Instead, we focus on creating histogram graphs for the groups to maintain privacy.
