@@ -156,6 +156,48 @@ python messages_over_time.py
 5. The script will read the packet capture file and extract the timestamps and lengths of each packet. It will then convert the timestamps to relative time in seconds (relative to the first packet's timestamp).
 
 6. The output will be a plot displaying the packet lengths against time in seconds. The plot will pop up on your screen, or you can save it programmatically if needed.
+   Certainly! Here's a README file you can use for your GitHub repository to explain your code:
+
+---
+
+# Network Packet Size Analysis
+
+This repository contains a Python script for analyzing network packet sizes from pcapng files and generating complementary cumulative distribution function (CCDF) plots for different groups of messages. The script uses libraries like `numpy`, `matplotlib`, and `pyshark` to process the packet data and visualize the results.
+
+
+## Overview
+
+This Python script reads packet sizes from pcapng files, normalizes the sizes, calculates the CCDF values, and generates CCDF plots for different message groups. The main purpose of this analysis is to understand the distribution of packet sizes within various message types, such as image messages, video messages, voice messages, files messages, and text messages.
+
+## Prerequisites
+
+Before using the script, you'll need to install the following libraries:
+
+- `numpy`: Library for numerical computations in Python
+- `matplotlib`: Library for creating visualizations in Python
+- `pyshark`: Library for parsing pcapng files
+
+You can install these libraries using the following command:
+
+```
+pip install numpy matplotlib pyshark
+```
+
+## Usage
+ The script will generate CCDF plots for different message groups and display them using `matplotlib`.
+
+## Results
+
+The generated CCDF plots provide insights into the distribution of packet sizes for different message types. The x-axis represents the normalized packet size, while the y-axis represents the complementary CDF (CCDF), which indicates the probability that a packet size is greater than or equal to a specific value.
+
+Different markers and labels are used for each message group in the plot:
+
+- Image messages (marker: o)
+- Video messages (marker: s)
+- Voice messages (marker: ^)
+- Files messages (marker: x)
+- Text messages (marker: D)
+
 
 ## Note
 
