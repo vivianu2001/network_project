@@ -22,7 +22,6 @@ The project is based on the "Practical Traffic Analysis Attacks on Secure Messag
 3. PDF and CCDF Graphs: Mathematical graphs were generated using `whatsapp_chat_histogram.py` for PDF functions and `message_size_distribution_ccdf.py` for CCDF functions. These tools allowed insights into message distribution patterns.
 
 ## Results
-as mention in our pdf,
 In our analysis, we investigated the network traffic from WhatsApp messages in different groups. We made interesting observations and faced several challenges in deciphering the data.
 It can be concluded that the algorithms in the article do demonstrate the potential to discern group communication patterns Although challenges exist, this analysis provides important insights into the nature of different groups and can be a valuable tool for understanding the dynamics of WhatsApp groups.
 As for the question of whether it is possible to understand whether it is possible to identify the groups in which the attacked participates when he communicates with several groups at the same time, it can be seen that this is relatively very complex. Even if the attacker participates in groups we participate in. There will be a very large "mixing" of messages, and it is not possible to analyze which group each package belongs to. When the attacker listens to a single group, it is relatively easy to export the events and analyze them according to the nature of the messages and the sending times.
