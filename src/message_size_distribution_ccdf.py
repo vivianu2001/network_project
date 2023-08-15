@@ -11,11 +11,11 @@ def read_group_data(file_path):
     return sizes
 
 
-group1_sizes = read_group_data('/home/vivian/pdf_mess.pcapng')
-group2_sizes = read_group_data('/home/vivian/audio_mess.pcapng')
-group3_sizes = read_group_data('/home/vivian/video_m(group 2)_new.pcapng')
-group4_sizes = read_group_data('/home/vivian/group_5.pcapng')
-group5_sizes = read_group_data('/home/vivian/group_1.pcapng')
+group1_sizes = read_group_data('/home/vivian/group_1.pcapng')
+group2_sizes = read_group_data('/home/vivian/PycharmProjects/pythonProject4/resources/group_2(vid).pcapng')
+group3_sizes = read_group_data('/home/vivian/group_3(voice).pcapng')
+group4_sizes = read_group_data('/home/vivian/group_4(files).pcapng')
+group5_sizes = read_group_data('/home/vivian/group_6.pcapng')
 
 
 
@@ -53,11 +53,11 @@ ccdf_group4 = calculate_ccdf(group4_sizes_normalized)
 ccdf_group5 = calculate_ccdf(group5_sizes_normalized)
 
 # Plot 1 - CCDF
-plt.plot(group1_sizes_normalized, 1 - ccdf_group1, label='File messages', marker='o')
-plt.plot(group2_sizes_normalized, 1 - ccdf_group2, label='Voice messages', marker='s')
-plt.plot(group3_sizes_normalized, 1 - ccdf_group3, label='Video messages', marker='^')
-plt.plot(group4_sizes_normalized, 1 - ccdf_group4, label='Text messages', marker='x')
-plt.plot(group5_sizes_normalized, 1 - ccdf_group5, label='Image messages', marker='D')
+plt.plot(group1_sizes_normalized, 1 - ccdf_group1, label='Image messages', marker='o')
+plt.plot(group2_sizes_normalized, 1 - ccdf_group2, label='Video messages', marker='s')
+plt.plot(group3_sizes_normalized, 1 - ccdf_group3, label='Voice messages', marker='^')
+plt.plot(group4_sizes_normalized, 1 - ccdf_group4, label='Files messages', marker='x')
+plt.plot(group5_sizes_normalized, 1 - ccdf_group5, label='Text messages', marker='D')
 
 
 plt.xlabel('Normalized Packet Size')
