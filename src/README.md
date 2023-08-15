@@ -4,7 +4,7 @@ This project focuses on practical traffic analysis techniques for studying netwo
 
 ## Burst Length Analysis using PyShark and Matplotlib(event_extraction.py)
 
-The Burst Length Analysis script analyzes burst lengths in a packet capture file using PyShark, a wrapper for TShark (Wireshark command-line tool). It then visualizes the burst lengths over time using Matplotlib.
+The Burst Length Analysis script analyzes burst lengths(in bytes) in a packet capture file using PyShark, a wrapper for TShark (Wireshark command-line tool). It then visualizes the burst lengths over time using Matplotlib.
 
 ### Description
 
@@ -61,6 +61,7 @@ python event_extraction.py
 ```
 
 6. The script will process the packet capture file and display a bar plot showing burst lengths over time.
+   event_extraction_MB.py is same only in MB
 
 ## WhatsApp Inter-Message Delay Analysis using Matplotlib and Numpy(whatsapp_chat_histogram.py)
 
