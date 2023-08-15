@@ -47,8 +47,8 @@ The project is based on the "Practical Traffic Analysis Attacks on Secure Messag
 
 ## Folder Structure
 
-- `RES`: Graphs folder for each group.
-- `RESOURCES`: Folder containing recorded conversations from Wireshark.
+- `res`: Graphs folder for each group.
+- `resources`: Folder containing recorded conversations from Wireshark.
 - `src`: Directory containing all project codes and implementations.
 - `Final project-computer networking.pdf`: Full project PDF document.
 - `Final project-computer networking(Hebrew).pdf`: Hebrew version of the project PDF.
