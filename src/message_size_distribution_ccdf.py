@@ -11,11 +11,11 @@ def read_group_data(file_path):
     return sizes
 
 
-group1_sizes = read_group_data('/home/vivian/group_1.pcapng')
-group2_sizes = read_group_data('/home/vivian/PycharmProjects/pythonProject4/resources/group_2(vid).pcapng')
-group3_sizes = read_group_data('/home/vivian/group_3(voice).pcapng')
-group4_sizes = read_group_data('/home/vivian/group_4(files).pcapng')
-group5_sizes = read_group_data('/home/vivian/group_6.pcapng')
+group1_sizes = read_group_data('/put/your/capture/file/path.pcapng')
+group2_sizes = read_group_data('/put/your/capture/file/path.pcapng')
+group3_sizes = read_group_data('/put/your/capture/file/path.pcapng')
+group4_sizes = read_group_data('/put/your/capture/file/path.pcapng')
+group5_sizes = read_group_data('/put/your/capture/file/path.pcapng')
 
 
 
