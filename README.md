@@ -70,7 +70,7 @@ Furthermore, users may switch between devices or change their identity, further 
 
 ## References
 
-- Article: [Practical Traffic Analysis Attacks on Secure Messaging Applications](link-to-article)
+- Article: [Practical Traffic Analysis Attacks on Secure Messaging Applications]((https://www.ndss-symposium.org/wp-content/uploads/2020/02/24347-paper.pdf))
 - LinkedIn: www.linkedin.com/in/vivian-umansky-86b9a0288,
             https://www.linkedin.com/in/liraz-balas-274044249 
 - GitHub Repository:https://github.com/vivianu2001/network_project
