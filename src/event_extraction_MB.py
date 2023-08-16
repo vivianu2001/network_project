@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # Path to the packet capture file
-capture_file = '/home/vivian/group_7.pcapng'
+capture_file = '/put/your/capture/file/path.pcapng'
 
 # Set the TShark path
 tshark_path = '/usr/bin/tshark'
