@@ -35,6 +35,5 @@ In each script, you can configure variables to specify the input data file, thre
 ![Example Result event_extraction.py ](https://github.com/vivianu2001/network_project/assets/118671563/483a61ae-f1d5-4ba6-a8fb-0c0964da7598)
 ![Example Result messages_over_time.py](https://github.com/vivianu2001/network_project/assets/118671563/db663846-2456-4e18-8a70-8566a26ebb7c)
 ![Example Result message_size_distribution_ccdf.py](https://github.com/vivianu2001/network_project/assets/118671563/2a2f9b2a-b3a6-4d1c-a740-2c8de1073822)
-![Example Result message_size_distribution_ccdf.py](https://github.com/vivianu2001/network_project/assets/118671563/2a2f9b2a-b3a6-4d1c-a740-2c8de1073822)
 ![Example Result whatsapp_chat_histogram.py](https://github.com/vivianu2001/network_project/assets/118671563/db735678-1f58-4ea2-906c-672b91f71b68)
 
