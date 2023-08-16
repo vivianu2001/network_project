@@ -61,7 +61,7 @@ Furthermore, users may switch between devices or change their identity, further 
 3. Explore the different folders to access recorded conversations, codes, and graphs.
 
 ## Folder Structure
-
+- 'project-Instruction.pdf':Instruction and questions given to us.
 - `res`: Graphs folder for each group.
 - `resources`: Folder containing recorded conversations from Wireshark.
 - `src`: Directory containing all project codes and implementations.
